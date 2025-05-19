@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Roboto;
+    
+}
+
+.body-header,
+.hero-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.hero-left {
+    display: flex;
+    
+    flex-direction: column;
+    padding: 50px;  
+    gap: 12px;
+}
+
+.hero-button .sign-up{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 17px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    width: 100px;
+}
+
+.logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.links ul{
+    display: flex;
+    
+    gap: 20px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.hero-secondary-text,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.information-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.author {
+    padding-left: 300px;
+    font-weight: bold;
+}
+
+.call-container {
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    
+    
+}
+
+.call-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+
+.call-button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.call-button .call-signup {
+    background-color: transparent; /* Fundo transparente */
+    color: white;                  /* Cor do texto */
+    border: 2px solid white;       /* Borda visível */
+    padding: 12px 24px;
+    border-radius: 6px;            /* Opcional: cantos arredondados */
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer {
+    
+    
+    color: white;
+    
+}
+
+
